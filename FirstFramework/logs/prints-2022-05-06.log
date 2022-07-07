@@ -1,0 +1,14 @@
+17:43:46.484 [main] INFO  Academy.Base - No thanks popup handled
+17:44:15.299 [main] INFO  Academy.Base - Navbar validated
+17:44:15.375 [main] INFO  Academy.Base - Broweser closed
+17:44:18.779 [main] INFO  Academy.Base - Driver Initialized
+17:44:37.323 [main] INFO  Academy.Base - Navigated to home page
+15:07:24.663 [TestNG-tests-3] INFO  Academy.Base - Driver Initialized
+15:07:47.431 [TestNG-tests-3] INFO  Academy.Base - Navigated to home page
+15:08:05.033 [TestNG-tests-2] INFO  Academy.Base - No thanks popup handled
+15:08:05.096 [TestNG-tests-2] INFO  Academy.Base - Navbar validated
+15:08:05.260 [TestNG-tests-2] INFO  Academy.Base - Broweser closed
+15:08:08.632 [TestNG-tests-1] INFO  Academy.Base - Data inserted
+15:08:47.138 [TestNG-tests-1] INFO  Academy.Base - Data inserted
+15:20:02.319 [TestNG-tests-3] INFO  Academy.Base - Driver Initialized
+15:20:40.599 [TestNG-tests-2] INFO  Academy.Base - No thanks popup handled

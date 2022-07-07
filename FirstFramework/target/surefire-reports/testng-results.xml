@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-05T10:41:25 GMT+05:30" name="All Test Suite" finished-at="2022-05-05T10:43:34 GMT+05:30" duration-ms="128830">
+    <groups>
+    </groups>
+    <test started-at="2022-05-05T10:41:25 GMT+05:30" name="FirstFramework" finished-at="2022-05-05T10:43:34 GMT+05:30" duration-ms="128830">
+      <class name="AcademyTest.HomePageTest">
+        <test-method is-config="true" signature="startbrowser()[pri:0, instance:AcademyTest.HomePageTest@2101b44a]" started-at="2022-05-05T10:41:25 GMT+05:30" name="startbrowser" finished-at="2022-05-05T10:41:30 GMT+05:30" duration-ms="4791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method signature="basepageNavigation(java.lang.String,java.lang.String)[pri:0, instance:AcademyTest.HomePageTest@2101b44a]" started-at="2022-05-05T10:42:03 GMT+05:30" name="basepageNavigation" data-provider="getdata" finished-at="2022-05-05T10:43:00 GMT+05:30" duration-ms="56369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pqr@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method signature="basepageNavigation(java.lang.String,java.lang.String)[pri:0, instance:AcademyTest.HomePageTest@2101b44a]" started-at="2022-05-05T10:43:00 GMT+05:30" name="basepageNavigation" data-provider="getdata" finished-at="2022-05-05T10:43:32 GMT+05:30" duration-ms="32586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lmn@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:AcademyTest.HomePageTest@2101b44a]" started-at="2022-05-05T10:43:33 GMT+05:30" name="closebrowser" finished-at="2022-05-05T10:43:33 GMT+05:30" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- AcademyTest.HomePageTest -->
+      <class name="AcademyTest.NavBarValidationTest">
+        <test-method is-config="true" signature="startbrowser()[pri:0, instance:AcademyTest.NavBarValidationTest@55562aa9]" started-at="2022-05-05T10:41:30 GMT+05:30" name="startbrowser" finished-at="2022-05-05T10:41:52 GMT+05:30" duration-ms="21447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method signature="basepageNavigation()[pri:0, instance:AcademyTest.NavBarValidationTest@55562aa9]" started-at="2022-05-05T10:43:32 GMT+05:30" name="basepageNavigation" finished-at="2022-05-05T10:43:33 GMT+05:30" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method is-config="true" signature="closebrowser1()[pri:0, instance:AcademyTest.NavBarValidationTest@55562aa9]" started-at="2022-05-05T10:43:33 GMT+05:30" name="closebrowser1" finished-at="2022-05-05T10:43:34 GMT+05:30" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser1 -->
+      </class> <!-- AcademyTest.NavBarValidationTest -->
+      <class name="AcademyTest.TitleValidationTest">
+        <test-method is-config="true" signature="startbrowser()[pri:0, instance:AcademyTest.TitleValidationTest@655ef322]" started-at="2022-05-05T10:41:52 GMT+05:30" name="startbrowser" finished-at="2022-05-05T10:42:03 GMT+05:30" duration-ms="11758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method signature="basepageNavigation()[pri:0, instance:AcademyTest.TitleValidationTest@655ef322]" started-at="2022-05-05T10:43:33 GMT+05:30" name="basepageNavigation" finished-at="2022-05-05T10:43:33 GMT+05:30" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method is-config="true" signature="closebrowser3()[pri:0, instance:AcademyTest.TitleValidationTest@655ef322]" started-at="2022-05-05T10:43:34 GMT+05:30" name="closebrowser3" finished-at="2022-05-05T10:43:34 GMT+05:30" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser3 -->
+      </class> <!-- AcademyTest.TitleValidationTest -->
+    </test> <!-- FirstFramework -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

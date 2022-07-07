@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="FirstFramework(failed)" verbose="0">
+    <classes>
+      <class name="AcademyTest.HomePageTest">
+        <methods>
+          <include name="startbrowser"/>
+          <include name="basepageNavigation"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- AcademyTest.HomePageTest -->
+    </classes>
+  </test> <!-- FirstFramework(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

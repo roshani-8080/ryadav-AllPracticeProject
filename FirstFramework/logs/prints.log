@@ -1,0 +1,5 @@
+15:20:43.292 [TestNG-tests-1] INFO  Academy.Base - Data inserted
+15:20:46.099 [TestNG-tests-3] INFO  Academy.Base - Navigated to home page
+15:21:01.758 [TestNG-tests-2] INFO  Academy.Base - Navbar validated
+15:21:01.845 [TestNG-tests-2] INFO  Academy.Base - Broweser closed
+15:21:15.453 [TestNG-tests-1] INFO  Academy.Base - Data inserted

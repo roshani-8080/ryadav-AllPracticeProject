@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/TestNgTutorial/src/test/java/testngFramework">
+        <parameter name="URL" value="Google.com"/>
+
+        <classes>
+            <class name="testngFramework.Day1Tut">
+
+
+            </class>
+        </classes>
+    </test>
+<test name="Demos">
+    <parameter name="URL1" value="Demos.com"/>
+    <parameter name="URL2" value="Entrata"/>
+
+
+    <classes>
+            <class name="testngFramework.Day2Tut"/>
+
+        </classes>
+    </test>
+</suite>

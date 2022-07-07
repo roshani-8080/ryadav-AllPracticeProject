@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="14" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-11T12:03:34 GMT+05:30" name="All Test Suite" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="646">
+    <groups>
+      <group name="smoke">
+        <method signature="Day2Tut.Demom3()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" name="Demom3" class="testngFramework.Day2Tut"/>
+        <method signature="Day2Tut.Demom5()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" name="Demom5" class="testngFramework.Day2Tut"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-04-11T12:03:34 GMT+05:30" name="D:/TestNgTutorial/src/test/java/testngFramework" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="646">
+      <class name="testngFramework.Day3">
+        <test-method signature="mydivision()[pri:0, instance:testngFramework.Day3@f8c1ddd]" started-at="2022-04-11T12:03:34 GMT+05:30" name="mydivision" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mydivision -->
+        <test-method signature="myclass()[pri:0, instance:testngFramework.Day3@f8c1ddd]" started-at="2022-04-11T12:03:34 GMT+05:30" name="myclass" finished-at="2022-04-11T12:03:34 GMT+05:30" depends-on-methods="testngFramework.Day3.mydivision" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myclass -->
+      </class> <!-- testngFramework.Day3 -->
+      <class name="testngFramework.Day1Tut">
+        <test-method signature="Demo7(java.lang.String,java.lang.String)[pri:0, instance:testngFramework.Day1Tut@b62fe6d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Demo7" data-provider="mydata" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firstname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo7 -->
+        <test-method signature="Demo7(java.lang.String,java.lang.String)[pri:0, instance:testngFramework.Day1Tut@b62fe6d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Demo7" data-provider="mydata" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Secondname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo7 -->
+        <test-method signature="Demo7(java.lang.String,java.lang.String)[pri:0, instance:testngFramework.Day1Tut@b62fe6d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Demo7" data-provider="mydata" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thirdname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo7 -->
+        <test-method signature="m1()[pri:0, instance:testngFramework.Day1Tut@b62fe6d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="m1" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m2()[pri:0, instance:testngFramework.Day1Tut@b62fe6d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="m2" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- testngFramework.Day1Tut -->
+      <class name="testngFramework.Day2Tut">
+        <test-method is-config="true" signature="Beforest()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Beforest" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforest -->
+        <test-method is-config="true" signature="Beforetst()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Beforetst" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforetst -->
+        <test-method is-config="true" signature="Beforecls()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Beforecls" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforecls -->
+        <test-method signature="Demo6(java.lang.String,java.lang.String)[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Demo6" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL1' is required by @Test on method Demo6 but has not been marked @Optional or defined
+in D:\TestNgTutorial\src\test\java\testngFramework\testng2.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL1' is required by @Test on method Demo6 but has not been marked @Optional or defined
+in D:\TestNgTutorial\src\test\java\testngFramework\testng2.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:660)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:856)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:704)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:70)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:49)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:904)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo6 -->
+        <test-method is-config="true" signature="Beforemth()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Beforemth" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemth -->
+        <test-method signature="Demom3()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Demom3" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demom3 -->
+        <test-method is-config="true" signature="Aftermth()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Aftermth" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermth -->
+        <test-method is-config="true" signature="Beforemth()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Beforemth" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemth -->
+        <test-method signature="Demom4()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Demom4" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demom4 -->
+        <test-method is-config="true" signature="Aftermth()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Aftermth" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermth -->
+        <test-method is-config="true" signature="Beforemth()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Beforemth" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemth -->
+        <test-method signature="Demom5()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Demom5" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demom5 -->
+        <test-method is-config="true" signature="Aftermth()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Aftermth" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermth -->
+        <test-method is-config="true" signature="Beforemth()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Beforemth" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemth -->
+        <test-method signature="Demom2()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Demom2" finished-at="2022-04-11T12:03:34 GMT+05:30" depends-on-methods="testngFramework.Day2Tut.Demom5" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demom2 -->
+        <test-method is-config="true" signature="Aftermth()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Aftermth" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermth -->
+        <test-method is-config="true" signature="Aftercls()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Aftercls" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftercls -->
+        <test-method is-config="true" signature="Aftertst()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:34 GMT+05:30" name="Aftertst" finished-at="2022-04-11T12:03:34 GMT+05:30" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftertst -->
+        <test-method is-config="true" signature="Afterst()[pri:0, instance:testngFramework.Day2Tut@7fc2413d]" started-at="2022-04-11T12:03:35 GMT+05:30" name="Afterst" finished-at="2022-04-11T12:03:35 GMT+05:30" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterst -->
+      </class> <!-- testngFramework.Day2Tut -->
+    </test> <!-- D:/TestNgTutorial/src/test/java/testngFramework -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
